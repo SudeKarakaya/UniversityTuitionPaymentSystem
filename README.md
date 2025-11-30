@@ -86,10 +86,7 @@ API Gateway with rate limiting + logging
 Cloud-hosted REST backend
 
 # 📊 Data Model (ER Diagram)
-erDiagram
-    STUDENTS ||--o{ TUITIONS : "has"
-    TUITIONS ||--o{ PAYMENTS : "has"
-
+    
     STUDENTS {
         int StudentId PK
         string StudentNo (unique)
